@@ -1,0 +1,639 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato';
+}
+
+.custom-navbar {
+    position: relative;
+    background-color: transparent !important;
+}
+
+.banner-content {
+    display: flex;
+}
+
+
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-content img {
+    width: 101%;
+    position: relative;
+    height: auto;
+    margin-left: -30px;
+}
+    
+
+.banner-heading {
+    color: #FFF;
+    font-family: "lato",Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.explore {
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #6630FF;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.explore:hover {
+    background-color: #6630FF;
+}
+
+
+.extra-container {
+    width:85%;
+    margin:auto;
+}
+
+.banner-menu-content {
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+}
+
+.banner-menu-content > div {
+    text-align: center;
+}
+
+.menu-icon-contain {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1.5em;
+    background: #201029;
+    border-radius: 61px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.menu-icon-title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.play-icon {
+    position: absolute;
+    top: 42%;
+    left: 35%;
+    width: 30%;
+}
+
+.text-center  {
+    text-align:center;
+}
+
+.play-icon svg{
+    width:30%;
+    height:2%;
+}
+
+.video-background {
+    position:relative;
+}
+
+.banner-text {
+    padding: 3rem 10rem 4rem 7rem;
+    width: 84%;
+}
+
+.banner-para {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding:10px 0px 20px 0px;
+}
+
+.capital-para {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.spacer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.purches {
+    border: 1px solid rgba(255,255,255,0.65);
+    background: none;
+    border-radius: 50px;
+    font-family: 'lato'; 
+    font-size: 14px;
+    font-weight: 400;
+    color:#fff !important;
+    text-transform: capitalize;
+    padding: 7px 20px;
+}
+
+.custom-navbar .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.custom-navbar .nav-item >a {
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff !important;
+        text-transform: capitalize;
+}
+
+.logo img {
+   width: 100px;
+}
+
+
+
+.main-banner {
+   position: relative;
+  background-color: black;
+}
+
+.grediant-overlay {
+    opacity: 0.45;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(
+110deg
+, #c06bff 0%, #F2295B00 50%);
+}
+
+.dropdown-menu {
+    background-color: #353c40;
+    border-radius: 0 !important;
+}
+.dropdown-menu .dropdown-item {
+    font-size: 13px;
+    text-align: left;
+    padding: 8px 20px;
+    color: #c8c8c8;
+
+}
+.dropdown-menu .dropdown-item:hover {
+    background: transparent !important;
+    color: #fff
+}
+.navbar-nav {
+    align-items: center;
+}
+
+.sticky-header.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #252b2d !important;
+    animation: hspin .3s linear forwards;
+    z-index: 100;
+    
+}
+
+
+/* unline anything */
+
+.unlike-anything {
+    position: relative;
+}
+
+.display-flex {
+    display: flex;
+}
+.unlike-anything-banner {
+   background-image: url("../img/pexels-business.jpeg"); 
+   background-size: cover;
+   width: 100%;
+}
+
+.unlike-anything-text {
+    background: #ECECEC;
+    padding:7%;
+    width: 59%
+}
+
+.second-heading {
+    color: #181818;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.15em;
+
+}
+
+.spacer-one-rem {
+    padding-top: 1rem;
+}
+
+.freedom-like .unlike-anything-banner{
+    background: url('../img/work3.jpeg');
+    background-position: 100%;
+}
+
+
+
+.white-color {
+    color: #fff;
+}
+
+.freedom-like .wired-magazine {
+    margin-left: 23rem;
+}
+
+.para {
+    color: #202020;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+.wired-magazine {
+    
+    background: #121212;
+    padding: 30px 52px 30px 42px;
+    position: absolute;
+    margin-top: 35rem;
+    margin-left: 2rem;
+
+}
+.wired-magazine h2 {
+    color: #FFF;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 1.35em;
+}
+
+.wired-magazine p {
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* features */
+.feature-title {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.feature-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: rgba(26, 26, 26, 0.9019607843137255);
+}
+
+
+/* discover new */
+.discover-new {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.dicsover-text {
+    width: 49%;
+}
+
+
+
+.feature-blog .feature-icon img {
+    width: 100%;
+}
+
+.blog-para {
+    color: #9F9F9F;
+    font-size: 17px;
+    line-height: 1.45em;
+}
+
+.blog-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.15em;
+    margin-top: 20px;
+}
+
+.discover-new .second-heading {
+    color: #fff;
+}
+.discover-new .para {
+    color:#B0B0B0;
+}
+
+
+.border-btn:hover {
+    background: #fff;
+    color: #1A1A1A;
+}
+
+.border-btn {
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFF;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    color: #fff;
+}
+
+
+/* quest */
+.heading {
+    color: #1A1A1A;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.15em;
+}
+.buy {
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: #6630FF;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #6630FF;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 55px 10px 55px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+
+.range h2 {
+    color: #1A1A1A;
+    font-size: 36px;
+    margin-right: 2.5rem;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.fourth-heading {
+    
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 14px;
+
+}
+
+.small-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.range {
+    display: flex;
+}
+
+.free-delivery {
+    display: flex;
+}
+
+.delivery-icon {
+    margin-right: 1.5rem;
+}
+.quest {
+    background: #F2F2F2;
+    display: flex;
+    
+}
+
+.quest .para {
+    color: #626262;
+    font-size: 20px;
+    line-height: 1.45em;
+}
+.quest-text-contain {
+    padding: 5rem 11rem 0rem 6rem;
+}
+
+
+
+.quest-image {
+    width: 80%;
+    padding: 0rem 0rem 2rem 3rem;
+}
+
+.quest-image img {
+    width: 100%;
+}
+
+
+/* accessories */
+
+.acces-header {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.acces-header .second-heading {
+    font-size: 50px;
+    color:#333;
+}
+
+.acces-header .explore {
+    color: #1A1A1A;
+}
+.acces-header .explore:hover  {
+    color: #fff;
+}
+
+.product-img {
+    background: #f2f2f2;
+}
+
+/* footer */
+.footer {
+    background: #292e31;
+    color:#d2d2d2;
+    padding: 70px 0 0;
+    margin-top: -1px;
+}
+
+.footer-heading {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+.footer-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+.paypal>div {
+    display: inline-block;
+    margin: 0 8px 14px 0;
+    padding: 6px 8px;
+    border: 1px #eee solid;
+    border-radius: 1px
+}
+
+.contact img {
+    display: inline-block;
+    width: 4%;
+    margin-right: 4px;
+
+}
+
+.contact p {
+    display: inline-block;
+}
+
+.sociel img {
+    display: inline-block;
+    width: 10%;
+}
+
+.timestemp {
+    display: block;
+    font-size: 12px;
+    color: #848484;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.recent-post .footer-para{
+    text-transform: capitalize;
+    color:#d2d2d2;
+    margin-bottom: 0;
+}
+
+.footer-bar {
+    background: #23272a;
+    padding: 30px 0 20px;
+    margin-top: 4rem;
+}
+
+.footer-bar .footer-para {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/* keyframes */
+
+  @keyframes hspin {
+      from {
+        -webkit-transform: translateY(-6rem);
+        transform: translateY(-6rem);
+      }
+    to {
+        -webkit-transform: translateY(0rem);
+        transform: translateY(0rem);
+    }
+  }
+  .btn-arrow {
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .feature-blog .feature-icon img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.bg-gray {
+    background-color: #F2F2F2;
+}
+.testimonial-row .card {
+    border: none;
+    padding: 20px;
+    box-shadow: 0 0 20px #0000000a;
+}
+.card-text {
+    color: #5a5a5a;
+}
+.office {
+    margin-top: 15px;
+}
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-nav li a {
+    color: #d2d2d2;
+    display: block;
+    padding: 4px 0;
+}
+.recent-post {
+    display: flex;
+    justify-content: flex-end;
+}
+.sociel img {
+    display: inline-block;
+    width: 32px;
+}
+.add-timeline {
+    position: relative;
+}
+.add-timeline .free-delivery {
+    border-left: 1px dashed #cecece;
+    padding-left: 25px;
+    position: relative;
+    padding-top: 16px;
+}
+.add-timeline .free-delivery:before {
+    content: '';
+    width: 14px;
+    height: 5px;
+    background-color: #6b4efc;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    
+}
+.btn-arrow img {
+    margin-left: 8px;
+    filter: invert(1);
+    width: 30px;
+}
